@@ -73,12 +73,12 @@ main {
   /* margin: 3vw; */
 }
 
-.input-box input[type="email"]:hover,
+.input-box input[type="text"]:hover,
 .input-box input[type="password"]:hover {
   border-color: #6c8cb3;
 }
 .input-box input[type="password"],
-.input-box input[type="email"] {
+.input-box input[type="text"] {
   margin-bottom: 30px;
   height: 3.4em;
   width: 30em;
