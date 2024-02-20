@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@font-face {
+  font-family: "Klavika";
+  src: url("klavika-bold.otf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfc5dd;
+}
+.box {
+  margin: 10vw 0 0 0;
+  width: 50vw;
+  background-color: #d1d3eb;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: -20px 20px 30px #7c7f86;
+}
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 100px 0;
+}
+.content {
+  padding: 20px;
+}
+input[type="text"]:not(#username) {
+  height: 30px;
+  border-radius: 5px;
+  border-color: #c6d0d8;
+  border-style: solid;
+  margin: 5px 0 0 0;
+}
+input[type="email"],
+input[type="password"],
+#username {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border-color: #c6d0d8;
+  border-style: solid;
+  margin: 10px 0 0 0;
+}
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #c6d0d8;
+  border-style: solid;
+  margin: 20px 0 0 0;
+  background-color: #6c8cb3;
+  color: #d1d3eb;
+}
+input[type="submit"]:hover {
+  background-color: #1371f8;
+  color: #d1d3eb;
+}
+h1 {
+  text-align: center;
+  color: #1371f8;
+  font-family: Klavika;
+  font-size: 4rem;
+  margin: 10px 0 10px 0;
+  text-shadow: -5px 5px 10px #7494dc;
+}
+::placeholder {
+  font-size: 1rem;
+  padding-left: 2%;
+}
+
+@media (max-width: 779px) {
+  input[type="text"] {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  h1 {
+    font-size: 8vw;
+  }
+}
+
+#back {
+  margin: 0 0 0 20px;
+  color: #0303039c;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 520;
+}
