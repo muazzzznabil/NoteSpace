@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="fontgoogle.css">
+
+    <link rel="stylesheet" href="InputPage.css">
+
+    <title>Add Notes</title>
+</head>
+
+<body>
+    <header class="test">
+        <a href="mainpage.html">
+            <h1 class="leftHeader">NoteSpace</h1>
+        </a>
+        <div class="rightHeader">
+            <a href="indexFacebook.html" id="logout">Logout</a>
+        </div>
+    </header>
+    <main>
+        <h2>Add Notes</h2>
+        <div class="container">
+            <form action="addNote.php" method="post">
+                <textarea cols="30" rows="10" autofocus class="post" name="note"
+                    placeholder="Write your note here....."></textarea>
+                <br>
+                <input type="submit" name="submit" value="Add Note">
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>

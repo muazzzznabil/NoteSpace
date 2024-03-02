@@ -16,7 +16,7 @@ if ($conn->connect_error) {
     // Bind the parameters
     $stmt->bind_param("sssss", $firstname, $lastname, $username, $email, $password);
     $stmt->execute();
-    echo "Registration Successful";
+    header("Location: indexFacebook.html");
     $stmt->close();
     $conn->close();
 }

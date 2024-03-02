@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@font-face {
+  font-family: "Klavika";
+  src: url("klavika-bold.otf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(220, 231, 239, 0.652);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3c5286;
+  height: 80px;
+}
+.rightHeader {
+  margin: 0 70px 0 0;
+  padding: 10px;
+}
+
+.rightHeader:hover {
+  background-color: #83a3f0;
+
+  border-radius: 5px;
+}
+
+#logout {
+}
+.leftHeader {
+  margin: 0 0 0 40px;
+}
+
+h1 {
+  font-family: Klavika;
+  color: rgba(251, 251, 252, 0.873);
+}
+
+main {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 3vw 0 0 0;
+}
+
+.box {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(214, 218, 255, 0.769);
+  box-shadow: -10px 10px 10px #c7cede;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 10px;
+  /* margin: 10px; */
+  width: 90vw;
+  /* height: 80vh; */
+  height: auto;
+  margin: 50px 0 0 0;
+}
+.content {
+  background-color: #7c96d4;
+  margin: 30px 0 0 0;
+  width: 90%;
+  height: 20%;
+  border-radius: 10px;
+  list-style: none;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  list-style: none;
+}
+
+.addNotes {
+  --circleradius: 70px;
+
+  background-color: #3c5286;
+  border-radius: 50%;
+  width: var(--circleradius);
+  height: var(--circleradius);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.plus-sign {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.horizontal,
+.vertical {
+  position: absolute;
+  background-color: black;
+  border-radius: 20px;
+  background-color: rgba(244, 247, 250, 0.825);
+}
+
+.horizontal {
+  width: 100%;
+  height: 10px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.vertical {
+  width: 10px;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}

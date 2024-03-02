@@ -1,0 +1,37 @@
+.container {
+  background-color: rgba(214, 218, 255, 0.769);
+  width: 90vw;
+  height: 40vh;
+  border-radius: 5px;
+  box-shadow: -10px 10px 10px #c7cede;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+textarea {
+  border-radius: 5px;
+  width: 90%;
+  height: 150px;
+  border: none;
+  margin-top: 40px;
+  vertical-align: top;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+  width: 90%;
+  height: 40px;
+  border: none;
+  margin-top: 40px;
+}
+
+input[type="submit"]:hover {
+  background-color: #6c8cb3;
+  color: white;
+  cursor: pointer;
+}
